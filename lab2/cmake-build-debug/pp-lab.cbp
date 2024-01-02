@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pp-lab"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\cli11-src\;CMake Files\cmake-build-debug\_deps\fmt-src\;CMake Files\cmake-build-debug\_deps\fmt-src\support\;CMake Files\cmake-build-debug\_deps\fmt-src\support\cmake\;CMake Files\cmake-build-debug\_deps\googlebenchmark-src\;CMake Files\cmake-build-debug\_deps\googlebenchmark-src\cmake\;CMake Files\cmake-build-debug\_deps\googlebenchmark-src\src\;CMake Files\cmake-build-debug\_deps\googletest-src\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\;CMake Files\cmake-build-debug\_deps\spdlog-src\;CMake Files\cmake-build-debug\_deps\spdlog-src\cmake\;CMake Files\cmake\;CMake Files\source\;CMake Files\benchmark\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build/libfmtd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 fmt"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build/libfmtd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 fmt/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spdlog">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build/libspdlogd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build/Makefile&quot;  VERBOSE=1 spdlog"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spdlog/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build/libspdlogd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build/Makefile&quot;  VERBOSE=1 spdlog/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_lib">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/liblab_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 lab_lib"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_lib/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/liblab_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 lab_lib/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin/lab.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/cli11-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 lab"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin/lab.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/cli11-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 lab/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_benchmarks">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin/lab_benchmarks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 lab_benchmarks"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_benchmarks/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin/lab_benchmarks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 lab_benchmarks/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/libbenchmark.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 benchmark"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/libbenchmark.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 benchmark/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_main">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/libbenchmark_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 benchmark_main"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_main/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/libbenchmark_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 benchmark_main/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check">
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_test">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin/lab_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/test"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 lab_test"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_test/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin/lab_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/test"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 lab_test/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/benchmark/benchmark.cpp">
+			<Option target="lab_benchmarks"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/benchmark/benchmark.h">
+			<Option target="lab_benchmarks"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/benchmark/benchmark_algorithms.cpp">
+			<Option target="lab_benchmarks"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/benchmark/benchmark_key.cpp">
+			<Option target="lab_benchmarks"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/ChangeLog.rst">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/README.rst">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/args.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/chrono.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/color.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/compile.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/core.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/format-inl.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/format.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/os.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/ostream.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/printf.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/ranges.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/std.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include/fmt/xchar.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/src/format.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/src/os.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/include/benchmark/benchmark.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/arraysize.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/benchmark.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/benchmark_api_internal.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/benchmark_api_internal.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/benchmark_main.cc">
+			<Option target="benchmark_main"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/benchmark_name.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/benchmark_register.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/benchmark_register.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/benchmark_runner.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/benchmark_runner.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/check.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/colorprint.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/colorprint.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/commandlineflags.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/commandlineflags.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/complexity.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/complexity.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/console_reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/counter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/counter.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/csv_reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/cycleclock.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/internal_macros.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/json_reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/log.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/mutex.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/perf_counters.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/perf_counters.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/re.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/reporter.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/sleep.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/sleep.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/statistics.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/statistics.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/string_util.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/string_util.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/sysinfo.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/thread_manager.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/thread_timer.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/timers.cc">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/timers.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/async.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/async_logger-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/async_logger.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/common-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/common.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/backtracer-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/backtracer.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/circular_q.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/console_globals.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/file_helper-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/file_helper.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/fmt_helper.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/log_msg-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/log_msg.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/log_msg_buffer-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/log_msg_buffer.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/mpmc_blocking_q.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/null_mutex.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/os-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/os.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/periodic_worker-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/periodic_worker.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/registry-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/registry.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/synchronous_factory.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/tcp_client-windows.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/tcp_client.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/thread_pool-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/thread_pool.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/udp_client-windows.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/udp_client.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/details/windows_include.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bin_to_hex.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/args.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/chrono.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/color.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/compile.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/core.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/format-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/format.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/locale.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/os.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/ostream.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/printf.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/ranges.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/bundled/xchar.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/chrono.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/compile.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/fmt.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/ostr.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/ranges.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fmt/xchar.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/formatter.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/fwd.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/logger-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/logger.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/pattern_formatter-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/pattern_formatter.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/android_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/ansicolor_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/ansicolor_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/base_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/base_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/basic_file_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/basic_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/daily_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/dist_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/dup_filter_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/hourly_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/mongo_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/msvc_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/null_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/ostream_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/qt_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/ringbuffer_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/rotating_file_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/rotating_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/stdout_color_sinks-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/stdout_color_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/stdout_sinks-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/stdout_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/syslog_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/systemd_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/tcp_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/udp_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/win_eventlog_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/wincolor_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/sinks/wincolor_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/spdlog-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/spdlog.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/stopwatch.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/tweakme.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include/spdlog/version.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/src/async.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/src/bundled_fmtlib_format.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/src/cfg.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/src/color_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/src/file_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/src/spdlog.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/src/stdout_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/test_get_path.cpp">
+			<Option target="lab_test"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/authors.h">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/encryption/FES.cpp">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/encryption/FES.h">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/encryption/Key.cpp">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/encryption/Key.h">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/image/bitmap_image.cpp">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/image/bitmap_image.h">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/image/pixel.cpp">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/image/pixel.h">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/io/image_parser.cpp">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/io/image_parser.h">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/main.cpp">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/util/Hash.cpp">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/util/Hash.h">
+			<Option target="lab_lib"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/test/test.cpp">
+			<Option target="lab_test"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/test/test.h">
+			<Option target="lab_test"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/test/test_bitmap.cpp">
+			<Option target="lab_test"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/test/test_hash.cpp">
+			<Option target="lab_test"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/test/test_key.cpp">
+			<Option target="lab_test"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/cli11-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cli11-src\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\fmt-src\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/support/cmake/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\fmt-src\support\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\fmt-src\support\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googlebenchmark-src\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googlebenchmark-src\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googlebenchmark-src\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googlebenchmark-src\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/cmake/GetGitVersion.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googlebenchmark-src\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/cmake/benchmark.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googlebenchmark-src\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googlebenchmark-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googlebenchmark-src\src\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\spdlog-src\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/cmake/ide.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\spdlog-src\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\spdlog-src\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake/Cache.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake/CompilerWarnings.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake/Linker.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake/PreventInSourceBuilds.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake/ProjectLibraries.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake/StandardProjectSettings.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake/Utils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake/VisualStudio.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/benchmark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\benchmark\"/>
+		</Unit>
+		<Unit filename="F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

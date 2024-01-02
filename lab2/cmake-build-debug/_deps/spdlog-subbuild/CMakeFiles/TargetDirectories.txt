@@ -1,0 +1,3 @@
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/edit_cache.dir
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/rebuild_cache.dir

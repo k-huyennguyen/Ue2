@@ -1,0 +1,14 @@
+# Target labels
+ spdlog-populate
+# Source files and their labels
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.rule
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete.rule
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build.rule
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure.rule
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download.rule
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install.rule
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir.rule
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch.rule
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test.rule
+F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update.rule

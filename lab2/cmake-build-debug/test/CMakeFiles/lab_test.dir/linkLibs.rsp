@@ -1,0 +1,1 @@
+ ../source/liblab_lib.a ../lib/libgtest.a "../_deps/fmt-build/libfmtd.a" "../_deps/spdlog-build/libspdlogd.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

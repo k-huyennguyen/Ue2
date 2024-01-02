@@ -1,0 +1,1 @@
+-I"F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/source" -I"F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/cli11-src/include" -isystem "F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/fmt-src/include" -isystem "F:/WS23-24/SPP/Praktika/prak2/lab2/lab2/cmake-build-debug/_deps/spdlog-src/include"

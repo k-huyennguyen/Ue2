@@ -1,0 +1,2 @@
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc liblab_lib.a CMakeFiles/lab_lib.dir/encryption/FES.cpp.obj CMakeFiles/lab_lib.dir/encryption/Key.cpp.obj CMakeFiles/lab_lib.dir/image/bitmap_image.cpp.obj CMakeFiles/lab_lib.dir/image/pixel.cpp.obj CMakeFiles/lab_lib.dir/io/image_parser.cpp.obj CMakeFiles/lab_lib.dir/util/Hash.cpp.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ranlib.exe liblab_lib.a
